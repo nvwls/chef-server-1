@@ -22,6 +22,7 @@ license_file "LICENSE"
 
 dependency "erlang"
 dependency "sqitch"
+dependency "perl-moose"
 
 build do
   env = with_standard_compiler_flags(with_embedded_path)
